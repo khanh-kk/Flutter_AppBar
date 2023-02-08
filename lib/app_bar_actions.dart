@@ -16,6 +16,7 @@ class AppBarActions extends StatelessWidget {
                 ..showSnackBar(
                     const SnackBar(content: Text('This is a snackbar')));
 
+// add MaterialBanner
               ScaffoldMessenger.of(context)
                 ..removeCurrentMaterialBanner()
                 ..showMaterialBanner(
