@@ -1,3 +1,4 @@
+import 'package:app_bar_ex/appBar_ex3.dart';
 import 'package:app_bar_ex/appBar_textButton_action.dart';
 import 'package:flutter/material.dart';
 
@@ -11,14 +12,15 @@ class AppBarApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      // theme: ThemeData(
-      //   colorSchemeSeed: const Color(0xff6750a4),
-      //   useMaterial3: true,
-      // ),
+    return MaterialApp(
+      theme: ThemeData(
+        colorSchemeSeed: const Color(0xff6750a4),
+        useMaterial3: true,
+      ),
       // home: AppBarActions(),
       // home: const MyAppBar2(),
-      home: MyAppBar3(),
+      // home: MyAppBar3(),
+      home: MyAppBar4(),
     );
   }
 }
